@@ -9,4 +9,4 @@ update_configs:
           update_type: "in_range"
     version_requirement_updates: "off"
     commit_message:
-      prefix: "Marfeel platform update"
+      prefix: "MRF-framework"
