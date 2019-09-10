@@ -1,0 +1,23 @@
+{
+  "name": "marfeel-tenant",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compile": "webpack-cli index.js",
+    "marfeel-run": "node ./dist/main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oliverfernandez/marfeel-tenant.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/oliverfernandez/marfeel-tenant/issues"
+  },
+  "homepage": "https://github.com/oliverfernandez/marfeel-tenant#readme",
+  "dependencies": {
+    "@oliverfernandez/marfeel-core": "^1.0.6"
+  }
+}
