@@ -6,6 +6,7 @@ update_configs:
     automerged_updates:
       - match:
           dependency_name: "@oliverfernandez*"
-          dependency_type: "all"
           update_type: "in_range"
     version_requirement_updates: "off"
+    commit_message:
+      prefix: "Marfeel platform update"
