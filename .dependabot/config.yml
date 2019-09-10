@@ -5,7 +5,7 @@ update_configs:
     update_schedule: "live"
     automerged_updates:
       - match:
-          dependency_name: "@oliverfernandez*"
+          dependency_name: "*marfeel-core*"
           update_type: "in_range"
     version_requirement_updates: "off"
     commit_message:
