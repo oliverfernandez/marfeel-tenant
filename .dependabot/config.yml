@@ -5,8 +5,9 @@ update_configs:
     update_schedule: "live"
     automerged_updates:
       - match:
-          dependency_name: "*marfeel-core*"
+          dependency_name: "@oliverfernandez/marfeel-core"
           update_type: "in_range"
+    # We only want updates to package-lock.json
     version_requirement_updates: "off"
     commit_message:
       prefix: "MRF-framework"
