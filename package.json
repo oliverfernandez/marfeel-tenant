@@ -18,6 +18,6 @@
   },
   "homepage": "https://github.com/oliverfernandez/marfeel-tenant#readme",
   "dependencies": {
-    "@oliverfernandez/marfeel-core": "^1.0.6"
+    "@oliverfernandez/marfeel-core-release": "^1.0.6"
   }
 }
