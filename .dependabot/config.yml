@@ -3,11 +3,20 @@ update_configs:
   - package_manager: "javascript"
     directory: "/"
     update_schedule: "live"
+    allowed_updates:
+      - match:
+          #Minor and security
+          update_type: "all"
+          #Direct and indirect, production and development
+          dependency_type: "all"
     automerged_updates:
       - match:
-          dependency_name: "@oliverfernandez/marfeel-core"
+          # We allow Dependabot to auto merge Marfeel dependencies, if build is OK
+          dependency_name: "@Marfeel*" 
+          # We tell Dependabot to respect SemVer declared in package.json
           update_type: "in_range"
-    # We only want updates to package-lock.json
+    # We only want updates to package-lock.json never package.json
     version_requirement_updates: "off"
     commit_message:
-      prefix: "MRF-framework"
+      #Following Commitizen naming
+      prefix: "build(MRF-up)"
