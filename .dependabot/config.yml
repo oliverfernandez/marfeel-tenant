@@ -12,7 +12,7 @@ update_configs:
     automerged_updates:
       - match:
           # We allow Dependabot to auto merge Marfeel dependencies, if build is OK
-          dependency_name: "@Marfeel*" 
+          dependency_name: "@oliverfernandez*" 
           # We tell Dependabot to respect SemVer declared in package.json
           update_type: "in_range"
     # We only want updates to package-lock.json never package.json
